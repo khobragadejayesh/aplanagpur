@@ -1,0 +1,77 @@
+.video {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+h1 {
+    display: -moz-deck;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    background: orange;
+    color: rgb(1, 0, 0);
+    padding: 20px 30px;
+}
+
+.nav-bar {
+    background: rgb(6, 242, 250);
+    height: 4;
+    overflow: var(--heading);
+}
+
+.show-nav {
+    height: auto;
+}
+
+/*************************/
+.nav-bar ul li {
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: all is ease-in-out;
+
+}
+
+/*.nav-bar ul li:hover {
+    background: #181414;
+}*/
+
+.nav-bar ul li a {
+    color: rgb(20, 16, 16);
+    text-transform:
+        uppercase;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* socil icons */
+
+.social-icons {
+    flex: 0 1 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icons .fab {
+    color: rgb(194, 19, 19);
+    font-size: 2rem;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.social-icons ul li {
+    padding: 20px;
+}
+
+.p {
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+h1 {
+    display: -moz-deck;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    background: orange;
+    color: rgb(1, 0, 0);
+    padding: 20px 30px;
+}
+
+.nav-bar {
+    background: rgb(6, 242, 250);
+    height: 4;
+    overflow: var(--heading);
+}
+
+.show-nav {
+    height: auto;
+}
+
+/*************************/
+.nav-bar ul li {
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: all is ease-in-out;
+
+}
+
+.nav-bar ul li:hover {
+    background: #141212;
+}
+
+.nav-bar ul li a {
+    color: rgb(247, 25, 25);
+    text-transform:
+        uppercase;
+    text-size-adjust: bold;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* socil icons */
+
+.social-icons {
+    flex: 0 1 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icons .fab {
+    color: rgb(194, 19, 19);
+    font-size: 2rem;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.social-icons ul li {
+    padding: 20px;
+}
+
+.honey {
+    display: grid;
+}
+
+.honey p {
+    padding: 0% 55%;
+}
+
+@media (min-width: 1050px) {
+    .honey {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 71px;
+    height: 82px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 71px;
+    height: 82px;
+}
+
+.gmap_iframe {
+    width: 71px !important;
+    height: 82px !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.menu-item img {
+    width: 40%;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}

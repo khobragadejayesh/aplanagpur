@@ -1,0 +1,169 @@
+* {
+    box-sizing: ;
+    border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --heading:
+        'montserrat' . sans-serif;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+}
+
+/* global styling */
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+hr {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+/* header */
+
+h1 {
+    display: -moz-deck;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    background: orange;
+    color: rgb(3, 1, 1);
+    padding: 20px 30px;
+}
+
+h2 {
+    display: flex;
+    justify-content: first baseline;
+    text-align: left;
+    text-decoration: rgb(72, 230, 24);
+}
+
+h1.fas {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/******* js related
+styling*******/
+
+.times-btn {
+    display: none;
+}
+
+.nav-bar {
+    background: rgb(6, 242, 250);
+    height: 4;
+    overflow: var(--heading);
+
+
+}
+
+.show-nav {
+    height: auto;
+}
+
+/*************************/
+.nav-bar ul li {
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: all is ease-in-out;
+
+}
+
+.nav-bar ul li:hover {
+    background: #181414;
+}
+
+.nav-bar ul li a {
+    color: rgb(20, 16, 16);
+    text-transform:
+        uppercase;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* social-icons*/
+.social-icons {
+    display: none;
+}
+
+@media(min-width: 100px) {
+
+    /* nav */
+    .ham-btn,
+    .times-btn {
+        display: none !important;
+    }
+
+    .top-head {
+        flex: 0 0 15%;
+    }
+
+    .nav-bar {
+        flex: 1 0 auto;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+    }
+
+    .nav-bar nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-bar nav ul li {
+        padding-right: 30px;
+    }
+
+    .nav-bar nav ul li:hover {
+        background: rgba(109, 128, 7, 0.295);
+    }
+}
+
+/* socil icons */
+
+.social-icons {
+    flex: 0 1 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icons .fab {
+    color: rgb(194, 19, 19);
+    font-size: 2rem;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.social-icons ul li {
+    padding: 20px;
+}
+
+.hot-topic p {
+    padding: 10px 0;
+    font-size: 20px;
+    text-shadow: 0 0 0px #000;
+    padding: 12px 10px;
+}
